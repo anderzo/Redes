@@ -1,11 +1,12 @@
 # Implementación de Red Corporativa Segmentada (VLANs & DHCP Relay)
 
 ## 🎯 Objetivo
-Simular la infraestructura de red de una empresa mediana para aislar el tráfico de los departamentos y centralizar la administración de IPs.
+Simular la infraestructura de red de una empresa mediana para aislar el tráfico de los departamentos y centralizar la administración de IPs. 
+el servidor centraliza la lógica y el router se encarga de que los paquetes lleguen a su destino
 
 ## 🛠️ Tecnologías Usadas
 * **Simulador:** Cisco Packet Tracer
-* **Hardware:** Router 2911, Switch 2960, Servidor Genérico.
+* **Hardware:** Router 2911, Switch 2960, Servidor Genérico. PCs
 * **Protocolos:** 802.1Q (Trunking), DHCP Relay (ip helper-address), Inter-VLAN Routing.
 
 ## 📋 Configuración Realizada
@@ -13,7 +14,6 @@ Simular la infraestructura de red de una empresa mediana para aislar el tráfico
 2. **Trunking:** Configuración del puerto Gigabit como tronco para transporte de etiquetas.
 3. **Servicios:** Servidor DHCP con pools específicos para cada subred.
 
-# Habilidades Técnicas
 - Segmentación de Red (VLANs): se dividio una red física en múltiples redes lógicas para mejorar la  seguridad y reducir el tráfico innecesario.
 
 - Enrutamiento Inter-VLAN (Router-on-a-Stick): se Configuro subinterfaces en un router para permitir que diferentes departamentos se comuniquen de forma controlada.
