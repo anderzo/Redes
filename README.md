@@ -1,2 +1,3 @@
 # Redes
-arquitectura de redes en Cisco Packet Tracer
+Guías técnicas de Cisco && Junos, protocolos de enrutamiento OSPF, BGP, PortChannel, et...
+Simuladores|emuladorer: Cisco PKT, GNS3
